@@ -1,0 +1,20 @@
+[project]
+name = "cca_test"
+version = "0.1.0"
+description = "Tutorial notebook to run a toy SBI case with NLE with some sequential simulation acquisition and data compression with CCA followed by evidence calculation with SDDR and the learned harmonic mean"
+readme = "README.md"
+requires-python = ">=3.12, <3.13"
+dependencies = [
+    "getdist>=1.7.6",
+    "jax-cosmo>=0.1.0",
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.3",
+    "sbi>=0.25.0",
+    "tqdm>=4.67.3",
+    "arviz==0.23",
+    "scipy>=1.17.1",
+    "setuptools==78.1.1",
+    "emcee>=3.1.6",
+    "nautilus-sampler>=1.0.6",
+]
